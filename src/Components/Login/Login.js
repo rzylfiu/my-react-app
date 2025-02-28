@@ -6,20 +6,20 @@ function Login() {
                 <form>
                     <div className="mb-4">
                         <label htmlFor="email" className="block text-gray-700">Email</label>
-                        <input 
-                            type="email" 
-                            id="email" 
-                            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500" 
-                            placeholder="Enter your email" 
+                        <input
+                            type="email"
+                            id="email"
+                            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                            placeholder="Enter your email"
                         />
                     </div>
                     <div className="mb-6">
                         <label htmlFor="password" className="block text-gray-700">Password</label>
-                        <input 
-                            type="password" 
-                            id="password" 
-                            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500" 
-                            placeholder="Enter your password" 
+                        <input
+                            type="password"
+                            id="password"
+                            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                            placeholder="Enter your password"
                         />
                     </div>
                     <button type="submit" className="w-full bg-yellow-500 text-white py-3 rounded-lg hover:bg-yellow-400 transition duration-300">
